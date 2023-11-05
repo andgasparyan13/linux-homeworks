@@ -1,0 +1,7 @@
+all: second
+
+first: 
+	g++ second.cpp -o second
+
+clean:
+	rm -f second

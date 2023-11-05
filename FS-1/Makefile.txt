@@ -1,0 +1,7 @@
+all: first
+
+first: 
+	g++ first.cpp -o first
+
+clean:
+	rm -f first
